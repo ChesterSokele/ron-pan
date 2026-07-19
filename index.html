@@ -19,12 +19,13 @@
 <header>
   <div class="container header-inner">
     <div class="logo-area">
-      <img src="images/logos.jpeg" alt="Ron_Pan Logo" class="logo-img" />
+      <img src="images/logo.jpeg" alt="Ron_Pan Logo" class="logo-img" />
     </div>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#tours">Tours</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
@@ -49,7 +50,7 @@
     <div class="tour-grid">
       <!-- 1 -->
       <div class="tour-card">
-        <img src="images/katutura.webp" alt="Katutura" />
+        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&auto=format&fit=crop" alt="Katutura" />
         <div class="tour-card-content">
           <h3>Katutura Township Cultural Tour</h3>
           <p>Travelers seeking authentic cultural connection</p>
@@ -59,7 +60,7 @@
       </div>
       <!-- 2 -->
       <div class="tour-card">
-        <img src="sos.jpeg" alt="Sossusvlei" />
+        <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&auto=format&fit=crop" alt="Sossusvlei" />
         <div class="tour-card-content">
           <h3>Sossusvlei & Namib Desert</h3>
           <p>Adventure through the Dunes</p>
@@ -69,7 +70,7 @@
       </div>
       <!-- 3 -->
       <div class="tour-card">
-        <img src="swakop.jpg" alt="Swakopmund" />
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop" alt="Swakopmund" />
         <div class="tour-card-content">
           <h3>Swakopmund & Walvis Bay Coastal Tours</h3>
           <p>Explore the stunning coastlines of Swakopmund and Walvis Bay.</p>
@@ -79,7 +80,7 @@
       </div>
       <!-- 4 -->
       <div class="tour-card">
-        <img src="skele.jpg" alt="Skeleton Coast" />
+        <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=600&auto=format&fit=crop" alt="Skeleton Coast" />
         <div class="tour-card-content">
           <h3>Skeleton Coast & Seal Colony Tour</h3>
           <p>Enjoy a personalized safari experience with a private tour</p>
@@ -89,12 +90,12 @@
       </div>
       <!-- 5 -->
       <div class="tour-card">
-        <img src="wild.jpeg" alt="Etosha" />
+        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600&auto=format&fit=crop" alt="Etosha" />
         <div class="tour-card-content">
           <h3>Etosha National Park Safari</h3>
           <p>Explore the Majestic Etosha Wildlife</p>
           <span class="tour-price"><i class="fas fa-tag"></i> N$6,500</span>
-          <a href="#" class="btn-readmore">Read More</a>
+          <a href="etosha-tour.html" class="btn-readmore">Read More</a>
         </div>
       </div>
       <!-- 6 -->
@@ -104,8 +105,42 @@
           <h3>Airport Transfers & Pickups</h3>
           <p>Book your airport transfer online for convenience</p>
           <span class="tour-price"><i class="fas fa-tag"></i> N$850</span>
-          <a href="#" class="btn-readmore">Read More</a>
+          <a href="airport-transfer-tour.html" class="btn-readmore">Read More</a>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY SECTION ===== -->
+<section id="gallery" class="gallery-section">
+  <div class="container">
+    <h2><i class="fas fa-images" style="color: var(--gold);"></i> Namibia Through Our Lens</h2>
+    <p class="section-sub">Explore the breathtaking landscapes and wildlife that make Namibia a truly unique destination.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&auto=format&fit=crop" alt="Katutura township" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&auto=format&fit=crop" alt="Sossusvlei dunes" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop" alt="Swakopmund coast" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=600&auto=format&fit=crop" alt="Skeleton Coast" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600&auto=format&fit=crop" alt="Etosha wildlife" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop" alt="Namibian landscape" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop" alt="Namib Desert" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&auto=format&fit=crop" alt="Wildlife" />
       </div>
     </div>
   </div>
@@ -142,11 +177,22 @@
         </div>
       </div>
       <div class="contact-form">
-        <input type="text" placeholder="First Name" />
-        <input type="text" placeholder="Last Name" />
-        <input type="email" placeholder="Email" />
-        <textarea rows="4" placeholder="Message"></textarea>
-        <button><i class="fas fa-paper-plane"></i> Send</button>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms Access Key -->
+          <input type="hidden" name="access_key" value="1601bf4a-25fa-43ec-b8f6-0f8c9b1a3af6" />
+          <!-- Additional hidden fields -->
+          <input type="hidden" name="subject" value="New Booking Inquiry from Ron_Pan Website" />
+          <input type="hidden" name="from_name" value="Ron_Pan Website Contact" />
+          <!-- Honeypot spam protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+          
+          <input type="text" name="first_name" placeholder="First Name" required />
+          <input type="text" name="last_name" placeholder="Last Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" rows="4" placeholder="Message" required></textarea>
+          <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+        <div id="formStatus" style="margin-top: 12px; color: var(--gold);"></div>
       </div>
     </div>
   </div>
