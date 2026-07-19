@@ -58,11 +58,16 @@ header {
 
 /* ===== LARGER LOGO ===== */
 .logo-img {
-  width: 70px;  /* increased from 50px */
-  height: 70px;
+  width: 100px;  /* significantly larger */
+  height: 100px;
   object-fit: contain;
   background: transparent;
-  filter: drop-shadow(0 0 6px rgba(245, 179, 66, 0.5));
+  filter: drop-shadow(0 0 8px rgba(245, 179, 66, 0.6));
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
 }
 
 /* ===== GALLERY SECTION ===== */
@@ -116,10 +121,15 @@ header {
   transform: scale(1.08);
 }
 
-/* ===== RESPONSIVE GALLERY ===== */
+/* ===== RESPONSIVE GALLERY & LOGO ===== */
 @media (max-width: 992px) {
   .gallery-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .logo-img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -130,8 +140,8 @@ header {
   }
   
   .logo-img {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -146,8 +156,8 @@ header {
   }
   
   .logo-img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -436,6 +446,7 @@ nav ul li a:hover {
   color: #eee;
   border-radius: 12px;
   font-size: 0.95rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form button {
@@ -572,16 +583,16 @@ footer p {
   .contact-grid {
     flex-direction: column;
   }
+  
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
     padding: 0 14px;
-  }
-
-  .logo-img {
-    width: 40px;
-    height: 40px;
   }
 
   nav ul {
@@ -635,5 +646,10 @@ footer p {
 
   .contact-social {
     font-size: 1.4rem;
+  }
+  
+  .logo-img {
+    width: 60px;
+    height: 60px;
   }
 }
