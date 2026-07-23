@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <url>
+        <loc>https://ronpantours.com/</loc>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/katu.jpg</image:loc>
+            <image:caption>Katutura Township Tour - Authentic Namibian Cultural Experience</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/etosha.jpg</image:loc>
+            <image:caption>Etosha National Park Safari - Namibia Wildlife Tours</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/swakopmund.jpg</image:loc>
+            <image:caption>Swakopmund Coastal Tours - Namibia Adventure</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/sos.jpeg</image:loc>
+            <image:caption>Sossusvlei Desert Tours - Namibia's Iconic Red Dunes</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/ruacana.jpg</image:loc>
+            <image:caption>Ruacana Water Falls Tours - Namibia Nature</image:caption>
+        </image:image>
+        <!-- Gallery images -->
+        <image:image>
+            <image:loc>https://ronpantours.com/images/g3.jpeg</image:loc>
+            <image:caption>Katutura township - Authentic Namibian culture</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/g4.jpeg</image:loc>
+            <image:caption>Sossusvlei red dunes - Namibia desert landscape</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/ge.jpeg</image:loc>
+            <image:caption>Swakopmund coastal views - Namibia Atlantic coast</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/desert.webp</image:loc>
+            <image:caption>Namib Desert - Skeleton Coast landscape</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/back.jpeg</image:loc>
+            <image:caption>Etosha wildlife - African elephant at waterhole</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/gel.jpeg</image:loc>
+            <image:caption>Namibian landscape - Stunning African scenery</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/gal.avif</image:loc>
+            <image:caption>Namib Desert dunes - Iconic African landscape</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ronpantours.com/images/mus.avif</image:loc>
+            <image:caption>Namibian wildlife - Safari experience</image:caption>
+        </image:image>
+    </url>
+
+</urlset>
